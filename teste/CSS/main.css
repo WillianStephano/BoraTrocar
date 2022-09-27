@@ -35,7 +35,9 @@
    transition: 150ms;
 }
 
-
+div {
+   background-color: #0F9AFE;
+}
 
 
 /* ######### INTRO ######### */
