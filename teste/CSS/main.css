@@ -40,7 +40,7 @@
 
 /* ######### INTRO ######### */
 .intro{
-   background-color: #EFF8FF;
+   background-color: #52d646;
    width: 100%;
    margin: 2% auto;
 }
@@ -63,7 +63,7 @@
 }
 
 .bt-intro{
-   background-color: #0F9AFE;
+   background-color: #1d5279;
    color: #ffffff;
    font-family: 'inter', sans-serif;
    font-weight: 500;
