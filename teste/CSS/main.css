@@ -35,7 +35,13 @@
    transition: 150ms;
 }
 
+div {
+   background-color: #0F9AFE;
+}
 
+h1 {
+   font-weight: bolder;
+}
 
 
 /* ######### INTRO ######### */
