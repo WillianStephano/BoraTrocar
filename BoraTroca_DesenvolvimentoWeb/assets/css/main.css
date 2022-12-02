@@ -1,0 +1,529 @@
+:root {
+   --background-azul: #2f82b4;
+   --branco: #ffffff;
+   --verde: #3dbc6f;
+   --fonte-titulo: "poppins";
+   --fonte-corpo: "nunito";
+}
+
+a {
+   text-decoration: none;
+   color: initial;
+}
+
+.perfil-menu {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.titulo {
+   font-family: var(--fonte-titulo);
+}
+
+.item-menu {
+   font-family: var(--fonte-titulo);
+   font-size: 0.6rem;
+}
+/* Pesquisa */
+
+.submit-lente {
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 10;
+   border: none;
+   background: transparent;
+   outline: none;
+   color: var(--branco);
+}
+
+.submit-line {
+   position: relative;
+   width: 100%;
+}
+
+.campo-pesquisa {
+   background-color: transparent;
+   color: var(--branco);
+   width: 100%;
+   border-radius: 6px;
+   border: 1px solid var(--branco);
+   padding: 1%;
+}
+
+.campo-pesquisa::placeholder {
+   color: var(--branco);
+   font-family: var(--fonte-titulo);
+   font-weight: 300;
+}
+
+.secao-pesquisa {
+   background-color: var(--background-azul);
+   padding: 5% 3%;
+   text-align: center;
+}
+
+.secao-pesquisa .container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 4%;
+}
+
+.img-icon-pesquisa {
+   background-color: #ffffff;
+   background-image: url(/assets/img/monitor_icon.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 60px;
+   width: 60px;
+   border-radius: 100%;
+}
+
+.img-icon-pesquisa:nth-child(2) {
+   background-image: url(/assets/img/cadeira_icon.svg);
+}
+
+.img-icon-pesquisa:nth-child(3) {
+   background-image: url(/assets/img/livro_icon.svg);
+}
+
+.img-icon-pesquisa:nth-child(4) {
+   background-image: url(/assets/img/icon_microondas.svg);
+}
+
+/* Anuncio */
+
+.anuncio {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.anuncio img {
+   width: 80%;
+   margin-top: 3%;
+}
+
+/* Produtos */
+
+.secao-produtos .container {
+   margin-top: 5%;
+   width: 90%;
+   display: flex;
+   justify-content: space-around;
+   row-gap: 30px;
+   flex-wrap: wrap;
+}
+
+.titulo-card {
+   text-align: center;
+   font-family: var(--fonte-corpo);
+   font-size: 0.9rem;
+}
+
+/* Rodape */
+
+.rodape {
+   background-color: var(--background-azul);
+   margin-top: 5%;
+}
+
+.rodape p {
+   color: var(--branco);
+   font-family: var(--fonte-titulo);
+   font-size: 14px;
+   opacity: 80%;
+}
+
+/* ############# Login ############### */
+
+.titulo-login {
+   font-size: 3rem;
+   font-family: var(--fonte-titulo);
+   color: var(--branco);
+   font-weight: 300;
+}
+
+.formulario {
+   margin-top: 20%;
+}
+
+.formulario .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 30px;
+}
+
+.formulario .campo {
+   width: 70%;
+   box-sizing: border-box;
+   padding: 2%;
+   border-radius: 13px;
+   border: 1px solid #494949;
+}
+
+.formulario .campo::placeholder {
+   font-family: var(--fonte-corpo);
+}
+
+.btn-entrar {
+   border-radius: 18px;
+   background-color: var(--background-azul);
+   color: var(--branco);
+   font-family: var(--fonte-titulo);
+   font-weight: 600;
+   padding: 2.5% 8%;
+   border: none;
+}
+
+.login-redes-sociais {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   margin: 10% 0 15%;
+}
+
+.txt-esqueceu,
+.txt-cadastre-se {
+   text-align: center;
+   font-family: var(--fonte-corpo);
+}
+
+.txt-esqueceu a,
+.txt-cadastre-se a {
+   text-decoration: none;
+}
+
+/* ############# Cadastro produto ############### */
+
+.image-upload > input {
+   visibility: hidden;
+   width: 0;
+   height: 0;
+}
+
+.teste {
+   height: 100px;
+   background-color: var(--branco);
+   padding: 20% 30%;
+   border-radius: 6px;
+}
+
+.campo-produto {
+   width: 70%;
+   box-sizing: border-box;
+   padding: 2%;
+   border-radius: 13px;
+   border: 1px solid #494949;
+}
+
+.formulario .campo-produto::placeholder {
+   font-family: var(--fonte-corpo);
+}
+
+/* ############# Cadastro produto ############### */
+
+.gambiarra {
+   border-radius: 100%;
+   outline: 2px solid #ffffff;
+   padding: 4% 6%;
+   height: fit-content;
+   width: fit-content;
+   display: flex;
+   margin: 0 auto;
+}
+
+/* ############# Perfil terceiro ############### */
+
+.carousel {
+   width: 40%;
+}
+
+.secao-perfilTerceiros .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 10px;
+}
+
+.titulo-perfilTerceiros {
+   font-family: var(--fonte-titulo);
+   font-weight: 400;
+   font-size: 1.8rem;
+   line-height: 2.2rem;
+}
+
+.sub-titulo-perfilTerceiros {
+   font-family: var(--fonte-titulo);
+   font-weight: 400;
+   font-size: 1.5rem;
+   line-height: 2.2rem;
+   text-align: center;
+}
+
+.secao-interesses {
+   margin-top: 10%;
+}
+
+.secao-interesses .container {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: center;
+   justify-content: space-around;
+   margin: 10% 0;
+}
+
+.btn-interesses {
+   border-radius: 18px;
+   background-color: var(--verde);
+   color: var(--branco);
+   font-family: var(--fonte-titulo);
+   font-weight: 400;
+   padding: 5% 10%;
+   border: none;
+   text-decoration: none;
+}
+
+/* ############# Chat ############### */
+
+.campo-chat {
+   background-color: transparent;
+   color: var(--branco);
+   width: 100%;
+   border-radius: 25px;
+   border: 1px solid var(--branco);
+   padding: 4%;
+   box-sizing: border-box;
+   height: fit-content;
+}
+
+.submit-chat {
+   position: absolute;
+   top: 6.5px;
+   right: 5px;
+   z-index: 10;
+   border: none;
+   background: transparent;
+   outline: none;
+   color: var(--branco);
+}
+
+.icones-campo-chat {
+   display: flex;
+   gap: 10px;
+}
+
+.secao-mensagem {
+   text-align: center;
+}
+
+.vazio {
+   height: 375px;
+}
+
+.input-chat {
+   width: 70%;
+   box-sizing: border-box;
+   padding: 2%;
+   border-radius: 25px;
+   border: 1px solid #494949;
+}
+
+.input-chat::placeholder {
+   font-family: var(--fonte-titulo);
+   font-weight: 500;
+}
+
+.btn-chat {
+   border-radius: 100%;
+   padding: 2% 3%;
+   border: 1px solid #000000;
+   font-weight: 900;
+}
+
+/* ############# Chat ############### */
+
+.secao-interesses-pag {
+   margin-top: 10%;
+}
+
+.secao-interesses-pag .container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 5px;
+   row-gap: 10px;
+}
+
+.titulo-interesses {
+   font-size: 1.5rem;
+   font-family: var(--fonte-titulo);
+   color: var(--branco);
+   font-weight: 400;
+   text-align: left;
+   line-height: 2.2rem;
+}
+
+.btn-interesse {
+   background-color: #3dbc6f8c;
+   border-radius: 70px;
+   padding: 2% 4%;
+   font-family: var(--fonte-titulo);
+   font-weight: 600;
+}
+
+.btn-grupo-interesse,
+.btn-grupo-premium {
+   margin-top: 20%;
+   display: flex;
+   justify-content: center;
+}
+
+.btn-cadastrar-interesse,
+.btn-cadastrar-premium {
+   border-radius: 18px;
+   background-color: var(--background-azul);
+   color: var(--branco);
+   font-family: var(--fonte-titulo);
+   font-weight: 600;
+   padding: 2.5% 8%;
+   border: none;
+}
+
+/* ############# Premium ############### */
+
+.secao-premium .container {
+   display: flex;
+   flex-direction: column;
+   margin-top: 10%;
+}
+
+.item-premium {
+   font-family: var(--fonte-corpo);
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 3.8rem;
+}
+
+.titulo-premium {
+   font-size: 1.7rem;
+   font-family: var(--fonte-titulo);
+   color: var(--branco);
+   font-weight: 300;
+   line-height: 3.8rem;
+}
+
+/* ############# Negociacoes ############### */
+
+.titulo-negociacao {
+   font-size: 1.7rem;
+   font-family: var(--fonte-titulo);
+   color: var(--branco);
+   font-weight: 300;
+   line-height: 3.8rem;
+}
+
+.secao-negociacao .container {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   row-gap: 30px;
+   margin: 20% 0;
+}
+
+.nome-negociacao {
+   text-align: center;
+   font-family: var(--fonte-corpo);
+   font-weight: 300;
+}
+
+/* ############# Config ############### */
+
+.item-config {
+   font-family: var(--fonte-corpo);
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 3.8rem;
+}
+
+.titulo-config {
+   font-size: 1.7rem;
+   font-family: var(--fonte-titulo);
+   color: var(--branco);
+   font-weight: 300;
+   line-height: 3.8rem;
+}
+
+/* ############# anunicio ############### */
+
+.secao-anuncio .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 10px;
+   margin-top: 10%;
+}
+
+.carousel-anuncio {
+   margin-bottom: 10%;
+}
+
+.grupo-produto {
+   font-family: var(--fonte-titulo);
+   display: flex;
+   flex-direction: column;
+   row-gap: 30px;
+   width: 80%;
+   margin: 10 auto;
+}
+
+.info-produto span,
+.info-produto-descri span {
+   font-weight: 800;
+}
+
+.condicao {
+   font-weight: 800;
+   color: #3dbc6f;
+}
+
+.txt-produto-descri {
+   border: 1px solid #000000;
+   box-sizing: border-box;
+   padding: 2%;
+   height: 200px;
+   border-radius: 10px;
+}
+
+.contactar {
+   display: flex;
+   gap: 10px;
+   width: 100%;
+   justify-content: center;
+   margin: 10%;
+}
+
+.btn-contactar {
+   border-radius: 16px;
+   background-color: var(--background-azul);
+   color: var(--branco);
+   font-family: var(--fonte-titulo);
+   font-weight: 600;
+   padding: 2.5% 8%;
+   border: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+.titulo-avaliar {
+   font-family: var(--fonte-titulo);
+   font-weight: 600;
+   font-size: 1.2rem;
+}
