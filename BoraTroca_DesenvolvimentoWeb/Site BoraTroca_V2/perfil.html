@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <title>Bora Troca!</title>
+   <link rel="shortcut icon" href="assets/img/switch-user.svg" type="image/x-icon">
+
+   <!-- css -->
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/Navbar-With-Button.css">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <!-- fontes -->
+</head>
+
+<body>
+   <header class="cabecalho">
+      <nav class="navbar navbar-light navbar-expand-md shadow-sm py-3">
+
+         <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+               <span class="d-flex justify-content-center align-items-center me-3 logo">
+                  <img src="assets/img/switch-user.svg" alt="">
+
+               </span>
+               <span class="fw-bold text-black-50" style="letter-spacing: 0.1rem;">Bora Troca!</span>
+            </a>
+
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+               <span class="visually-hidden">Toggle navigation</span>
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navcol-1">
+               <ul class="navbar-nav text-center ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Destaque.html">Itens Destaque</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#.html">Contato</a></li>
+               </ul>
+               <a class="perfil nav-link " href="index.html">
+                  Sair
+               </a>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <div class="row py-5 px-4">
+      <div class="col-md-5 mx-auto">
+         <div class="bg-white shadow rounded overflow-hidden">
+
+            <div class="px-4 pt-0 pb-5 cover">
+               <div class="media align-items-end profile-head">
+                  <div class="profile mr-3">
+                     <img src="assets/img/michael-mims-fWWiaDox0BU-unsplash.jpg" alt="..."
+                        class="rounded mb-2 img-thumbnail">
+                  </div>
+                  <div class="media-body mb-5 text-white">
+                     <h4 class="mt-0 mb-0">Anna Exilius</h4>
+                     <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i>Cotia-SP</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="bg-light p-4 d-flex justify-content-end text-center">
+               <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                     <h5 class="font-weight-bold mb-0 d-block">23</h5>
+                     <small class="text-muted">
+                        <i class="fas fa-image mr-1"></i>
+                        Seguidores
+                     </small>
+                  </li>
+                  <li class="list-inline-item">
+                     <h5 class="font-weight-bold mb-0 d-block">13</h5><small class="text-muted">
+                        <i class="fas fa-user mr-1"></i>
+                        Trocas realizadas
+                     </small>
+                  </li>
+                  <li class="list-inline-item">
+                     <h5 class="font-weight-bold mb-0 d-block">15</h5><small class="text-muted">
+                        <i class="fas fa-user mr-1"></i>
+                        Recomendações
+                     </small>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="px-4 py-3">
+               <h5 class="mb-0">Itens de Interesses</h5>
+               <div class="p-4 rounded shadow-sm bg-light">
+                  <p class="font-italic mb-0">Instrumentos Musicais</p>
+                  <p class="font-italic mb-0">Cameras fotograficas</p>
+                  <p class="font-italic mb-0">Jogos</p>
+               </div>
+            </div>
+
+            <div class="py-4 px-4">
+               <div class="d-flex align-items-center justify-content-between mb-3">
+                  <h5 class="mb-0">Itens anunciados</h5><a href="#" class="btn btn-link text-muted">Mostrar todos</a>
+               </div>
+               <div class="row">
+                  <div class="col-lg-6 mb-2 pr-lg-1 item">
+                     <img src="assets/img/cadeira (Pequeno).jpg" alt="" class="img-fluid rounded shadow-sm">
+                     <h5 class="titulo">Cadeira</h5>
+                  </div>
+                  <div class="col-lg-6 mb-2 pr-lg-1 item">
+                     <img src="assets/img/cadeira (Pequeno).jpg" alt="" class="img-fluid rounded shadow-sm">
+                     <h5 class="titulo">Cadeira</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <a href="" class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Cadastre um novo item
+         </a>
+
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Cadastre um novo item para troca</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="modal-txt">
+                        <form>
+                           <div class="row mb-4">
+                              <div class="col">
+                                 <div class="form-outline">
+                                    <label class="form-label" for="form6Example1">Nome do item</label>
+                                    <input type="text" id="form6Example1" class="form-control" placeholder="Nome" />
+                                 </div>
+                              </div>
+                              <div class="col">
+                                 <div class="form-outline">
+                                    <label class="form-label" for="form6Example2">Marca</label>
+                                    <input type="text" id="form6Example2" class="form-control" placeholder="Marca" />
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div class="form-outline mb-4">
+                              <label class="form-label" for="form6Example3">Categoria</label>
+                              <select type="text" id="form6Example3" class="form-control">
+                                 <option value="">Selecione uma categoria </option>
+                                 <option value="">Eletronico</option>
+                                 <option value="">Musica</option>
+                                 <option value="">Jogos</option>
+                                 <option value="">Esportes</option>
+                              </select>
+                           </div>
+
+
+                           <div class="form-outline mb-4">
+                              <label class="form-label" for="form6Example6">Tempo de uso</label>
+                              <input type="number" id="form6Example6" class="form-control"
+                                 placeholder="Tempo de uso meses" />
+                           </div>
+
+                           <div class="form-outline mb-4">
+                              <label class="form-label" for="form6Example7">Descrição</label>
+                              <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                           </div>
+
+                           <div class="form-check d-flex justify-content-center mb-4">
+                              <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8"
+                                 checked />
+                              <label class="form-check-label" for="form6Example8">
+                                 Aceita troca em mais de um item?
+                              </label>
+                           </div>
+
+
+                        </form>
+
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                     <button type="button" class="btn btn-primary">Cadastrar</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="text-center py-4 rodape">
+      <div class="container">
+         <div class="col">
+            <p class="text-muted my-2">Bora troca&nbsp;© 2022</p>
+         </div>
+      </div>
+   </footer>
+   </div>
+</body>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Bora Troca</title>
+   <link rel="shortcut icon" href="assets/img/switch-user.svg" type="image/x-icon">
+
+   <!-- css -->
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/Navbar-With-Button.css">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <!-- fontes -->
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+   <header class="cabecalho">
+      <nav class="navbar navbar-light navbar-expand-md shadow-sm py-3">
+
+         <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+               <span class="d-flex justify-content-center align-items-center me-3 logo">
+                  <img src="assets/img/switch-user.svg" alt="">
+
+               </span>
+               <span class="fw-bold text-black-50" style="letter-spacing: 0.1rem;">Bora Troca!</span>
+            </a>
+
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+               <span class="visually-hidden">Toggle navigation</span>
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navcol-1">
+               <ul class="navbar-nav text-center ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Destaque.html">Itens Destaque</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#.html">Contato</a></li>
+               </ul>
+               <a class="perfil nav-link " href="perfil.html">
+                  Perfil
+               </a>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <div class="container mt-5">
+      <div class="row clearfix">
+         <div class="col-lg-12">
+            <div class="card chat-app">
+               <div class="chat">
+                  <div class="chat-header clearfix">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <a href="javascript:void(0);" data-toggle="modal" data-target="#view_info">
+                              <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="avatar">
+                           </a>
+                           <div class="chat-about">
+                              <h6 class="m-b-0">Luiz Rodrigues | Guitarra</h6>
+                              <small>Online a 3 horas atras</small>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="chat-history">
+                     <ul class="m-b-0">
+                        <li class="clearfix">
+                           <div class="message other-message float-right"> Ola Luiz, tudo bem? Esse item ainda esta
+                              disponivel? </div>
+                        </li>
+                        <li class="clearfix">
+                           <div class="message-data">
+                              <span class="message-data-time">10:12 AM, Hoje</span>
+                           </div>
+                           <div class="message my-message">Sim, gostaria de vir dar uma olhada nela hoje?</div>
+                        </li>
+                        <li class="clearfix">
+                           <div class="message-data">
+                              <span class="message-data-time">10:15 AM, Hoje</span>
+                           </div>
+                           <div class="message my-message">Tenho disponibilidade no periodo da tarde, que item voce
+                              gostaria de trocar?</div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="chat-message clearfix">
+                     <div class="input-group mb-0 teste">
+                        <input type="text" class="form-control" placeholder="Digite sua mensagem">
+                        <div class="input-group-prepend">
+                           <span class="input-group-text"><i class="fa fa-send"></i></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+</html>
