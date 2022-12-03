@@ -16,8 +16,7 @@ body {
          144deg,
          rgba(126, 126, 126, 0.8883928571428571) 0%,
          rgba(0, 0, 0, 0.9) 100%
-      ),
-      url(../img/airplaneBg.jpg) center / cover;
+      );
    height: 600px;
 }
 

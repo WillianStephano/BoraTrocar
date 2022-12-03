@@ -29,8 +29,14 @@ O projeto é composto por uma pagina que contem 6 paginas, e aqui listarei as pr
 <img src="assets/img/previa-boratrocav2.PNG" alt="Imagem de pré-visualização da pagina">
 
 ---
+### 🔦 Lighthouse
+Ao longo da criação do projeto tivemos como foco a acessibilidade e boas praticas assim atingindo os seguintes resultados no lighthouse:
 
-## 💼 Tecnologias utilizadas
+<img src="assets/img/BoraTrocaLighthouse.PNG" alt="Imagem de pré-visualização da pagina">
+
+---
+
+#### 💼 Tecnologias utilizadas
 Para o desenvolvimento deste projeto foram utilzadas as seguintes tecnologias:
 
 - HTML;
